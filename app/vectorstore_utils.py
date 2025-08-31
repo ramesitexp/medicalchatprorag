@@ -1,5 +1,5 @@
 from langchain_community.vectorstores import FAISS
-from lanchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
 from typing import List
 
 def create_faiss_index(texts: List[str]) :
